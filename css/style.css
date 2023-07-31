@@ -333,12 +333,14 @@ button:focus,
     .project-list {
         grid-template-columns: 1fr;
     }
+
     .page-header img{ 
         max-width: 50%;
         height: 50%;
     }
     .navigation-list li{
         font-size: 16px;
+        padding: 0;
     }
 }
     
