@@ -159,6 +159,14 @@ main h1{
     text-align: center;
 }
 
+main {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+main a{
+    display: block
 }
 
 fieldset{
