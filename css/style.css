@@ -155,8 +155,10 @@ nav.page-header__item a {
     text-align: left;
 }
 
-.title-contact{
-    text-align: left;
+main h1{
+    text-align: center;
+}
+
 }
 
 fieldset{
