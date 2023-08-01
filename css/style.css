@@ -306,21 +306,6 @@ fieldset {
 
 .cloud-top {
     animation: 30s cloud-move infinite alternate linear;
-    transform: rotate(180);
-}
-
-@keyframes cloud-move-reverse {
-    from {
-        transform: translate(446px, 48px);
-    }
-
-    to {
-        transform: translate(100px, 48px);
-    }
-}
-
-.cloud-bottom {
-    animation: 34s cloud-move-reverse infinite alternate linear;
 }
 
 /* responsive classes */
