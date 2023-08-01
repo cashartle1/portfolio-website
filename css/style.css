@@ -254,7 +254,12 @@ fieldset {
     transition-property: opacity 0.2s;
 }
 
-button:hover button:focus .button:hover .button.focus {
+.button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.button.focus {
     cursor: pointer;
     opacity: 0.8;
 }
