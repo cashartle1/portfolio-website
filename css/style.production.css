@@ -392,6 +392,12 @@ fieldset {
             animation: 30s cloud-move infinite alternate linear;
 }
 
+.svg-cityimage {
+    width: 100%;
+    padding: 100px;
+    margin: 10px auto;
+}
+
 /* responsive classes */
 
 /* for displays smaller than 500px */
