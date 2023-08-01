@@ -56,22 +56,6 @@ a:active {
     color: #cf5555;
 }
 
-button {
-    border: none;
-    font-family: inherit;
-    background-color: var(--lightblue);
-    color: var(--lighterFontColor);
-    text-decoration: none;
-    padding: 10px;
-    border-radius: 3px;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
-}
-
-button:hover button:focus {
-    cursor: pointer;
-    opacity: 0.8;
-}
-
 /* start page header */
 nav {
     max-width: 900px;
