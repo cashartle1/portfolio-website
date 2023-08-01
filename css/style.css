@@ -341,9 +341,8 @@ button:hover button:focus .button:hover .button.focus {
         grid-template-columns: 1fr;
     }
 
-    .page-header img {
-        max-width: 50%;
-        height: 50%;
+    .profile {
+        flex-direction: column;
     }
 
     .navigation-list li {
@@ -351,8 +350,6 @@ button:hover button:focus .button:hover .button.focus {
         padding: 0;
     }
 
-    .profile {
-        flex-direction: column;
     }
 }
 
