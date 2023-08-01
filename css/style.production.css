@@ -426,6 +426,12 @@ fieldset {
         -ms-grid-row: 2;
         grid-row: 2;
     }
+
+    .svg-cityimage {
+        width: 75%;
+        padding: 50px;
+        margin: 10px 0;
+    }
 }
 
 /* for displays between 500px to 750px */
