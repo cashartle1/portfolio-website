@@ -345,11 +345,15 @@ button:hover button:focus .button:hover .button.focus {
         flex-direction: column;
     }
 
-    .navigation-list li {
-        font-size: 16px;
-        padding: 0;
+    nav img {
+        height: 100%;
+        grid-row: 1;
     }
 
+    nav a {
+        font-size: 16px;
+        padding: 0;
+        grid-row: 2;
     }
 }
 
