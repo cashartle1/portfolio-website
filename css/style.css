@@ -72,36 +72,28 @@ button:hover button:focus {
     opacity: 0.8;
 }
 
-/* start page header*/
-.page-header {
-    display: flex;
-    width: 100%;
-    padding: 20px;
+/* start page header */
+nav {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    text-align: center;
     align-items: center;
-  }
-  
-.page-header__item {
-    flex: 0 1 200px;
-  }
-  
-.page-header__item:last-child {
-    flex-grow: 1;
-    text-align:right;
-  }
-
-.navigation-list{
-    list-style:none;
 }
 
-.navigation-list li {
-    display: inline-block;
-    margin-left: 15px;
-} 
-
-.navigation-list__item--active{
+nav a{
     text-decoration: none;
+    color: var(--primary-color);
 }
-/* end page header*/
+
+nav a:visited {
+    color: var(--primary-color);
+}
+
+nav a:active {
+    color: var(--secondary-color);
+}
 
 /*navigation bar animation*/
 nav.page-header__item {
