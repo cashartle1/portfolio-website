@@ -240,7 +240,7 @@ fieldset {
     }
 }
 
-.button button {
+.button {
     /* overwrites browser defaults and resets the border */
     border: none;
     display: inline-block;
